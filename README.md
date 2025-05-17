@@ -21,7 +21,7 @@ create database golang
 | Product_Category | string | | Unit | string | | Tier | string |
 | Description | string | | Price | float |
 
-```
+
 ### Running
 ```
 
@@ -99,4 +99,3 @@ curl --location 'http://yourlocal:8080/products/search' \
 
 ```
 
-```
