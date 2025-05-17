@@ -12,7 +12,7 @@ Example Golang SQL Server
 create database golang
 ```
 
-#Product
+# Product
 | Field            | Type   | 
 | :--------------- |:------:| 
 | Id               | int    | 
@@ -21,13 +21,20 @@ create database golang
 | Description      | string |                               
 
 
-| Prices                    | | PriceDetail            |
-| :------------------------:| | :---------------------:|
-| Field            | Type   | | Field         | Type   |
-| :---------------:|:------:| |:-------------:|:------:|
-| Id               | int    | | Id            | int    |
-| Product_Id       | int    | | Price_Id      | int    |
-| Unit             | string | | Tier          | string |
+# Price 
+| Field            | Type   | 
+| :--------------- |:------:| 
+| Id               | int    | 
+| Product_Id       | int    | 
+| Unit             | string | 
+
+
+# PriceDetail            
+| Field         | Type   |
+|:------------- |:------:|
+| Id            | int    |
+| Price_Id      | int    |
+| Tier          | string |
 | Price         | float  |
 
 ### Running
