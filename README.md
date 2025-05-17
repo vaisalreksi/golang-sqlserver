@@ -13,9 +13,9 @@ create database golang
 ```
 
 | Products                  | 
-| :------------------------:| 
+| :------------------------ | 
 | Field            | Type   | 
-| :---------------:|:------:| 
+| :--------------- |:------:| 
 | Id               | int    | 
 | Name             | string | 
 | Product_Category | string | 
